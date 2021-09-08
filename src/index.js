@@ -10,28 +10,36 @@ import ReactDOM  from 'react-dom';
 const Applist =()=> {
   const items= ['Items 1','Items 2', 'Items 3','Items 4'];
   const firstelment =<li> Item 0</li> 
+  const isAuth = true
   return(
     <ul>
       {
-        firstelment
+        isAuth ? firstelment : null
       }
       {items.map( item=><li>{item}</li>)}
-      <li>
-           {items[0]} 
-          </li>
-          <li>
-            {items[1]}
-          </li>
+        <li>{items[0]} </li>
+        <li>{items[1]}</li>
         </ul>
   );
 }
 
+const Apppinput=()=>{
+  const placeholder="Text search";
 
-const Appheader=()=> <h1> Hello Word</h1>;
+  return(
+    
+    <label HtmlFor="search">
+      
+      <input id ="seacrh" placeholder={placeholder} />
+    </label>
+  )
+}
+const Appheader=()=> <h1 className="App-header"> Hello Word</h1>;
 
 const App=()=>{
 return(<>
   <Appheader />
+    <Apppinput />
     <Applist />
     <Appheader />
     <Applist />
