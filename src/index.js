@@ -1,5 +1,6 @@
 import React from  'react';
 import ReactDOM  from 'react-dom';
+import './index.css';
 
 // const el= React.createElement(
 //   'h1',
@@ -36,16 +37,10 @@ const Apppinput=()=>{
   )
 }
 const Appheader=()=> {
-  const margin =40;
-  const headerStyle= {
-    color:'red',
-    marginLeft:'${margin}15px',
-    marginTop:'${margin}15px',
-};
+
 return (
 <h1
  className="App-header"
- style={headerStyle}
  > This header
  
  </h1>
