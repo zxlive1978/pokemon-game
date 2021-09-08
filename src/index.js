@@ -36,7 +36,7 @@ const Apppinput=()=>{
   )
 }
 const Appheader=()=> {
-  const headerStyle= {color:red}
+  const headerStyle= {color:'red'}
 return (
 <h1
  className="App-header"
