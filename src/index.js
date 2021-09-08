@@ -5,6 +5,6 @@ const el= React.createElement(
   'h1',
   null,
   'Hello Word, React.js!'
-)
+);
 
-ReactDOM.render(el, document.getElementsById('root'));
+ReactDOM.render(el, document.getElementById('root'));
