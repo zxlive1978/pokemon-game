@@ -11,6 +11,7 @@ const Applist =()=> {
   const items= ['Items 1','Items 2'];
   return(
     <ul>
+      {items.map( item=><li>{item}</li>)}
       <li>
            {items[0]} 
           </li>
