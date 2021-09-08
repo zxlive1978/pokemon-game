@@ -21,13 +21,8 @@ const Applist =()=> {
 }
 
 
-const Appheader=()=>{
+const Appheader=()=> <h1> Hello Word</h1>;
 
-  return(
-    <h1> Hello Word</h1>
-
-  )
-}
 const App=()=>{
 return(<>
   <Appheader />
