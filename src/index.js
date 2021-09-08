@@ -24,6 +24,7 @@ const Applist =()=> {
 }
 
 const Apppinput=()=>{
+  
   const placeholder="Text search";
 
   return(
@@ -35,8 +36,14 @@ const Apppinput=()=>{
   )
 }
 const Appheader=()=> {
+  const headerStyle= {color:red}
 return (
-<h1 className="App-header"> Hello Word</h1>
+<h1
+ className="App-header"
+ style={headerStyle}
+ > This header
+ 
+ </h1>
 );
 };
 
