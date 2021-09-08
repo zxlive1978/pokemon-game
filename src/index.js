@@ -8,13 +8,14 @@ import ReactDOM  from 'react-dom';
 // );
 
 const Applist =()=> {
+  const items= ['Items 1','Items 2'];
   return(
     <ul>
       <li>
-            Первый
+           {items[0]} 
           </li>
           <li>
-            Второй
+            {items[1]}
           </li>
         </ul>
   );
