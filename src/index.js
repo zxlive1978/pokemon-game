@@ -7,17 +7,38 @@ import ReactDOM  from 'react-dom';
 //   'Hello Word, React.js!'
 // );
 
-const el =( <React.Fragment><h1> Hello Word</h1>
-  <ul>
-    <li>
-      Первый
-    </li>
-    <li>
-      Второй
-    </li>
-  </ul></React.Fragment>
+const Applist =()=> {
+  return(
+    <ul>
+      <li>
+            Первый
+          </li>
+          <li>
+            Второй
+          </li>
+        </ul>
   );
-console.log(el);
+}
 
 
-ReactDOM.render(el, document.getElementById('root'));
+const Appheader=()=>{
+
+  return(
+    <h1> Hello Word</h1>
+
+  )
+}
+const App=()=>{
+return(<>
+  <Appheader />
+    <Applist />
+    <Appheader />
+    <Applist />
+</>
+)
+
+}
+
+
+
+ReactDOM.render(<App />, document.getElementById('root'));
