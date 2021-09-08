@@ -36,7 +36,12 @@ const Apppinput=()=>{
   )
 }
 const Appheader=()=> {
-  const headerStyle= {color:'red'}
+  const margin =40;
+  const headerStyle= {
+    color:'red',
+    marginLeft:'${margin}15px',
+    marginTop:'${margin}15px',
+};
 return (
 <h1
  className="App-header"
