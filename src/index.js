@@ -8,9 +8,13 @@ import ReactDOM  from 'react-dom';
 // );
 
 const Applist =()=> {
-  const items= ['Items 1','Items 2'];
+  const items= ['Items 1','Items 2', 'Items 3','Items 4'];
+  const firstelment =<li> Item 0</li> 
   return(
     <ul>
+      {
+        firstelment
+      }
       {items.map( item=><li>{item}</li>)}
       <li>
            {items[0]} 
