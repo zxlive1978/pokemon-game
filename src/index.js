@@ -28,13 +28,17 @@ const Apppinput=()=>{
 
   return(
     
-    <label HtmlFor="search">
+    <label htmlFor="search">
       
       <input id ="seacrh" placeholder={placeholder} />
     </label>
   )
 }
-const Appheader=()=> <h1 className="App-header"> Hello Word</h1>;
+const Appheader=()=> {
+return (
+<h1 className="App-header"> Hello Word</h1>
+);
+};
 
 const App=()=>{
 return(<>
