@@ -1,17 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import HeaderBlock from "./components/HeaderBlock";
 
-function App() {
-  return (
-    <div className="App" name="root">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Zar1
-        </p>
-      </header>
-    </div>
-  );
-}
+const App=()=>{
+  return(<>
+      <HeaderBlock />
 
-export default App;
+  </>
+  )
+  
+  }
+
+  export default App;
