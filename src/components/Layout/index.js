@@ -1,15 +1,34 @@
 import s from "./style.module.css"
+import BackImage from '../../assets/bg2.jpg';
 
 // import { ReactComponentElement as } from "react";
 
-const Layout =({title, desc, urlBg='none', colorBg='none'})=>{
+const Layout =({title, desc, urlBg, colorBg})=>{
+	var stile;
+	console.log(colorBg);
+	if(colorBg !== 'red'){
+		
+		 stile = {
+			 
+			background:"url("+BackImage+")"	 
+		}	
+	} else{
+		
+		 stile = {
+			background:colorBg
+
+		}
+	}
+	console.log(stile);
+
 
 	return(
 
 	<section className={s.root}>
-    <div className={s.wrapper}>
+    <div className={s.wrapper} style={stile}>
         <article>
-            <div className={s.title}>
+            <div className={s.title} 
+			>
                 <h3>{title}</h3>
                 <span className={s.separator}></span>
             </div>

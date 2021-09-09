@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Layout from "./components/Layout";
 import Footer from "./components/Footer";
 
+
 const App=()=>{
   return(<>
 
@@ -14,7 +15,7 @@ const App=()=>{
       <Layout 
         title="Заголовок Бульбазавр"
         desc="Бульбазавра можно увидеть дремлющим при ярком солнечном свете. На его спине есть семя. На солнце семя растет и становится больше."
-        urlBg="../../assets/bg1.jpg"
+        urlBg='./assets/bg1.jpg'
       
       />
       <Layout 
@@ -26,7 +27,7 @@ const App=()=>{
       <Layout 
         title="Заголовок Венузавр"
         desc="На спине Венузавра есть большой цветок. Он будет раскрашен в яркие цвета, если получит большое количество питательных веществ и солнечного света. Цветочный аромат успокаивает эмоции людей."
-        urlBg="../../assets/bg3.jpg"
+        urlBg='./assets/bg1.jpg'
       />
 
 
