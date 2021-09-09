@@ -6,6 +6,7 @@ const App=()=>{
       <HeaderBlock 
         title="This is new Title"
         hideBackground={true}
+        decription ="This new description"
       
       />
 

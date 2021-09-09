@@ -1,7 +1,7 @@
 import s from './style.module.css';
 // console.log('#### s', s);
 
-const HeaderBlock =({title,hideBackground = false})=>{
+const HeaderBlock =({title,hideBackground = false, decription})=>{
 	const styleRoot= hideBackground ?{backgroundImage:'none'}:{};
 	return (
 		<div>
@@ -9,7 +9,7 @@ const HeaderBlock =({title,hideBackground = false})=>{
 				<h1 className={s.header} style={styleRoot}>
 					 {title}
 					 </h1>
-				<p>Simple Triple Triad Game!</p>
+				<p>{decription}</p>
 			</div>
 
 		</div>
