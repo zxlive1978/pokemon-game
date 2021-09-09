@@ -40,7 +40,7 @@ const Appheader=()=> {
 
 return (
 <h1
- className="App-header"
+ className="header"
  > This header
  
  </h1>
