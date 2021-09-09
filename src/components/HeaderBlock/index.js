@@ -1,7 +1,7 @@
 import s from './style.module.css';
 // console.log('#### s', s);
 
-const HeaderBlock =({title})=>{
+const HeaderBlock =({title,hideBackground = false})=>{
 
 	return (
 		<div>
