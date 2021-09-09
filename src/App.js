@@ -2,7 +2,7 @@ import HeaderBlock from "./components/HeaderBlock";
 
 const App=()=>{
   return(<>
-      <HeaderBlock />
+      <HeaderBlock title="This is new Title"/>
 
   </>
   )
