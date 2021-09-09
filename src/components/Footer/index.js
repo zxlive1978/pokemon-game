@@ -4,19 +4,13 @@ const Footer =()=>{
 
 	return(
 
-		<footer>
-    <div class="wrapper">
-        <h3>THANKS FOR VISITING</h3>
-        <p>© 2021 #ReactMarathon.</p>
-    </div>
-</footer>
-
-		<div>
-			<div>
-			
-			
+				<footer>
+			<div className={s.wrapper}>
+				<h3>THANKS FOR VISITING</h3>
+				<p>© 2021 #ReactMarathon.</p>
 			</div>
-		</div>
+		</footer>
+
 	)
 
 }
