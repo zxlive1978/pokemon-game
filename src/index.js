@@ -2,6 +2,8 @@ import React from  'react';
 import ReactDOM  from 'react-dom';
 import './index.css';
 
+import HeaderBlock from './components/HeaderBlock';
+
 // const el= React.createElement(
 //   'h1',
 //   null,

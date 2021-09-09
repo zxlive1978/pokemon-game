@@ -1,5 +1,5 @@
-import './style.css';
-
+import s from './style.module.css';
+console.log('#### s'.s);
 const HeaderBlock =()=>{
 	return (
 		<div>
@@ -12,3 +12,5 @@ const HeaderBlock =()=>{
 
 	)
 }
+
+export default HeaderBlock;
