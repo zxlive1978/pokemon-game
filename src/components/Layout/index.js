@@ -19,8 +19,7 @@ const Layout =({title, desc, urlBg, colorBg})=>{
 
 		}
 	}
-	console.log(stile);
-
+	
 
 	return(
 
