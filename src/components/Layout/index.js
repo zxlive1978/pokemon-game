@@ -40,7 +40,6 @@ const Layout =({title, desc, urlBg, colorBg})=>{
 </section>
 
 
-
 	)
 
 }
